@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6</title>
+    <script src="./q06.js" defer></script>
+</head>
+<body>
+
+    <h1>Questão 6</h1>
+
+    <p>
+        Escreva um programa para calcular a nota final de um aluno de curso técnico subsequente do IFCE,
+        sabendo que o semestre letivo é dividido em 2 etapas (N1 e N2) e a nota final é obtida a partir
+        de uma média ponderada das notas obtidas nas 2 etapas. Os pesos para cada etapa são os seguintes:
+        N1, peso 2; N2, peso 3. A nota mínima para aprovação é 6,0.
+    </p>
+
+    <form id="formDados">
+        <label for="notaN1">Nota da N1:</label>
+        <input type="number" step="0.1" min="0" max="10" id="notaN1">
+
+        <label for="notaN2">Nota da N2:</label>
+        <input type="number" step="0.1" min="0" max="10" id="notaN2">
+
+        <button type="submit">Calcular nota final</button>
+    </form>
+
+    <p id="resultado"></p>
+
+</body>
+</html>
